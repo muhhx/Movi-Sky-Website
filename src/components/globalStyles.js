@@ -13,8 +13,9 @@ export const GlobalStyle = createGlobalStyle`
     }
 `;
 
-export const Section = styled.section`
+export const Wrapper = styled.section`
     width: 100%;
-    height: 300vh;
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 `;

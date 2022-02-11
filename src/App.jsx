@@ -2,8 +2,8 @@ import { useMenu } from "./context/menu"
 
 import Header from "./components/Header"
 import Menu from "./components/Menu"
-
-import { GlobalStyle, Section } from "./components/globalStyles"
+import Presentation from './pages/Presentation'
+import { GlobalStyle, Wrapper } from "./components/globalStyles"
 
 export default function App() {
   const { isOpen } = useMenu()
@@ -14,11 +14,11 @@ export default function App() {
     <>
       <Header />
       {isOpen === true ? <Menu /> : ''}
-      <Section>
-        <div>1</div>
+      <Wrapper>
+        <Presentation />
         <div>2</div>
         <div>3</div>
-      </Section>
+      </Wrapper>
       <GlobalStyle />
     </>
   )
