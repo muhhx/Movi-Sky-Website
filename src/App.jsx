@@ -4,6 +4,7 @@ import Header from "./components/Header"
 import Menu from "./components/Menu"
 import Presentation from './pages/Presentation'
 import About from './pages/About'
+import Apartment from './pages/Apartment'
 import { GlobalStyle, Wrapper } from "./components/globalStyles"
 import { ThemeProvider } from "styled-components"
 import './app.css'
@@ -15,6 +16,7 @@ export default function App() {
   const theme = {
     colors: {
       black: '#333',
+      darkerBlack: '#171717',
       orange: '#f15924'
     }
   }
@@ -28,7 +30,7 @@ export default function App() {
         <Wrapper>
           <Presentation />
           <About />
-          <div>3</div>
+          <Apartment />
         </Wrapper>
       </>
     </ThemeProvider>
