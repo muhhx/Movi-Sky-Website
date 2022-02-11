@@ -3,6 +3,7 @@ import { useMenu } from "./context/menu"
 import Header from "./components/Header"
 import Menu from "./components/Menu"
 import Presentation from './pages/Presentation'
+import About from './pages/About'
 import { GlobalStyle, Wrapper } from "./components/globalStyles"
 
 export default function App() {
@@ -16,7 +17,7 @@ export default function App() {
       {isOpen === true ? <Menu /> : ''}
       <Wrapper>
         <Presentation />
-        <div>2</div>
+        <About />
         <div>3</div>
       </Wrapper>
       <GlobalStyle />
