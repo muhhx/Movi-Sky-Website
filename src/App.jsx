@@ -5,6 +5,7 @@ import Menu from "./components/Menu"
 import Presentation from './pages/Presentation'
 import About from './pages/About'
 import Apartment from './pages/Apartment'
+import Structure from './pages/Structure'
 import { GlobalStyle, Wrapper } from "./components/globalStyles"
 import { ThemeProvider } from "styled-components"
 import './app.css'
@@ -17,7 +18,8 @@ export default function App() {
     colors: {
       black: '#333',
       darkerBlack: '#171717',
-      orange: '#f15924'
+      orange: '#f15924',
+      grey: '#f0f0f0'
     }
   }
 
@@ -31,6 +33,7 @@ export default function App() {
           <Presentation />
           <About />
           <Apartment />
+          <Structure />
         </Wrapper>
       </>
     </ThemeProvider>
