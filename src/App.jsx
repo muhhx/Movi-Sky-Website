@@ -6,6 +6,9 @@ import Presentation from './pages/Presentation'
 import About from './pages/About'
 import Apartment from './pages/Apartment'
 import Structure from './pages/Structure'
+import Localization from './pages/Localization'
+import Contact from './pages/Contact'
+
 import { GlobalStyle, Wrapper } from "./components/globalStyles"
 import { ThemeProvider } from "styled-components"
 import './app.css'
@@ -34,6 +37,8 @@ export default function App() {
           <About />
           <Apartment />
           <Structure />
+          <Localization />
+          <Contact />
         </Wrapper>
       </>
     </ThemeProvider>

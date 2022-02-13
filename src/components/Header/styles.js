@@ -12,7 +12,7 @@ export const Background = styled.div`
     position: absolute;
     width: 100%;
     height: 100px;
-    background: ${props => props.status === true ? '' : `linear-gradient(rgba(0,0,0, 100%), rgba(0,0,0, 0%))`};
+    background: ${props => props.status === true ? '' : `linear-gradient(rgba(0,0,0, 50%), rgba(0,0,0, 0%))`};
     display: flex;
     justify-content: center;
 `;
