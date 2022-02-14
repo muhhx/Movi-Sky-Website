@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
     width: 90%;
     max-width: 1000px;
-    height: 550px;
+    height: 500px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -13,6 +13,10 @@ export const Container = styled.div`
         justify-content: initial;
         align-items: initial;
         gap: 20px;
+    }
+
+    @media only screen and (max-width: 750px) {
+        gap: 50px;
     }
 `;
 
@@ -74,9 +78,19 @@ export const Image = styled.img`
     position: absolute;
     bottom: 0;
     right: 0;
-    max-height: 110%;
+    max-width: 110%;
+
+    @media only screen and (max-width: 1100px) {
+        transform: translateY(-60px);
+    }
 
     @media only screen and (max-width: 970px) {
-        max-height: 120%;
+        width: 40%;
+        transform: translateY(120px);
+    }
+
+    @media only screen and (max-width: 750px) {
+        width: 50%;
+        transform: initial;
     }
 `;

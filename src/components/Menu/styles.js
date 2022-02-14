@@ -6,7 +6,7 @@ export const StyledMenu = styled.div`
     height: 0px;
     width: 100%;
     z-index: 99;
-    `;
+`;
 
 export const Section = styled.section`
     height: 100vh;

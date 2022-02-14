@@ -5,18 +5,13 @@ export const Container = styled.div`
     max-width: 2000px;
     min-height: 700px;
     display: grid;
-    grid-template-columns: .8fr .3fr .4fr .8fr .8fr;
-    grid-template-rows: .2fr .3fr .1fr .3fr .2fr .2fr .2fr .1fr;
+    grid-template-columns: .8fr .3fr .2fr .8fr .8fr;
+    grid-template-rows: .2fr .3fr .2fr .3fr .2fr .2fr .2fr .1fr;
 `;
 
 export const Image = styled.img`
     position: absolute;
     min-height: 100%;
-
-    @media only screen and (max-width: 750px) {
-        width: 100%;
-        min-height: initial;
-    }
 `;
 
 export const Image2 = styled.img`
@@ -39,8 +34,8 @@ export const ImageWrapper1 = styled.div`
     }
 
     @media only screen and (max-width: 750px) {
-        grid-column: 1 / 6;
-        overflow: hidden;
+        grid-column: 1 / 5;
+        justify-content: end;
     }
 `;
 
@@ -59,9 +54,8 @@ export const ImageWrapper2 = styled.div`
     }
 
     @media only screen and (max-width: 750px) {
-        grid-column: 1 / 6;
-        overflow: hidden;
-        align-items: flex-end;
+        grid-column: 3 / 6;
+        justify-content: start;
     }
 `;
 
