@@ -2,7 +2,7 @@ import { Container, Description, Icon, IconWrapper, Title } from './styles'
 
 export default function Item({ data }) {
     return (
-        <Container display={data.displayMobile}>
+        <Container mobile={data.displayMobile}>
             <IconWrapper>
                 <Icon src={data.image} alt={data.alt}/>
             </IconWrapper>

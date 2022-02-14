@@ -3,7 +3,7 @@ import image2 from '../../assets/structure2.png'
 import image3 from '../../assets/structure3.png'
 import image4 from '../../assets/structure4.jpg'
 
-export const header = {
+export const headerData = {
     title: 'Nossa Estrutura'
 }
 
@@ -14,6 +14,7 @@ export const structure1 = {
     number: '01',
     image: image1,
     alt: 'Apartment view.',
+    custom: false,
     styling: {
         width: '45%',
         flexDirection: 'row',
@@ -29,6 +30,7 @@ export const structure2 = {
     number: '02',
     image: image2,
     alt: 'Apartment view.',
+    custom: false,
     styling: {
         width: '60%',
         flexDirection: 'row-reverse',
@@ -44,6 +46,7 @@ export const structure3 = {
     number: '03',
     image: image3,
     alt: 'Apartment view.',
+    custom: false,
     styling: {
         width: '55%',
         flexDirection: 'row',
@@ -59,6 +62,7 @@ export const structure4 = {
     number: '04',
     image: image4,
     alt: 'Apartment view.',
+    custom: true,
     styling: {
         width: '50%',
         flexDirection: 'row-reverse',

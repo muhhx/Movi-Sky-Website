@@ -1,4 +1,4 @@
-import { mapData, block1, block2, block3, block4, block5, block6, block7, block8, block9 } from './data';
+import { headerData, mapData, block1, block2, block3, block4, block5, block6, block7, block8, block9 } from './data';
 import Header from './Header'
 import Item from './Item'
 import Mapa from './Mapa'
@@ -7,7 +7,7 @@ import { Container, Grid } from "./styles";
 export default function Localization() {
     return (
         <Container>
-            <Header />
+            <Header data={headerData}/>
             <Grid>
                 <Item data={block1}/>
                 <Item data={block2}/>

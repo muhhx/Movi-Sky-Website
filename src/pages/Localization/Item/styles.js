@@ -9,7 +9,7 @@ export const Container = styled.div`
     gap: 15px;
 
     @media only screen and (max-width: 950px) {
-        display: ${({display}) => display === false ? 'none' : 'flex'};
+        display: ${({mobile}) => mobile ? 'flex' : 'none'};
         align-items: center;
     }
 

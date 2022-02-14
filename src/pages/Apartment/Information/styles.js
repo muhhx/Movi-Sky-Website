@@ -39,6 +39,7 @@ export const Title = styled.h1`
     font-weight: 600;
     line-height: 120%;
     width: 60%;
+    /* overflow-wrap: break-word; */
 `;
 
 export const Division = styled.div`

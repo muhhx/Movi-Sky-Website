@@ -1,4 +1,4 @@
-import { header, structure1, structure2, structure3, structure4 } from './data';
+import { headerData, structure1, structure2, structure3, structure4 } from './data';
 import Header from './Header'
 import Items from './Items'
 import { Container } from "./styles";
@@ -6,7 +6,7 @@ import { Container } from "./styles";
 export default function Structure() {
   return (
     <Container>
-      <Header />
+      <Header data={headerData} />
       <Items item={structure1}/>
       <Items item={structure2}/>
       <Items item={structure3}/>

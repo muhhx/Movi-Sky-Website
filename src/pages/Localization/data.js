@@ -9,6 +9,12 @@ import image7 from '../../assets/icon7.png'
 import image8 from '../../assets/icon8.png'
 import image9 from '../../assets/icon9.png'
 
+export const headerData = {
+    title: 'Localizado no Eixo Platina!',
+    description: 'O Projeto Movi Japi, situado em uma das mais importantes zonas da sua região, Eixo Platina, é um dos novos lançamentos da  Fenix Incorporadora. Localizados na rota que conecta os principais pontos da Zona Leste, encontramos por ali todas as soluções para as demandas da vida urbana.',
+    backgroundText: 'Eixo Platina'
+}
+
 export const mapData = {
     image: map,
     alt: 'Map image',

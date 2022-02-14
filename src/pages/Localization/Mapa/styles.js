@@ -36,6 +36,7 @@ export const Description = styled.div`
     align-items: center;
     justify-content: center;
     color: white;
+    text-align: center;
 
     @media only screen and (max-width: 750px) {
         width: 100%;

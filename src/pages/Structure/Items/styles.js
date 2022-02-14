@@ -17,23 +17,26 @@ export const ImageWrapper = styled.div`
     min-width: ${({width}) => width.width};
     height: 100%;
     position: relative;
-    overflow: hidden;
+    overflow: ${({custom}) => custom === false ? 'hidden' : 'true'};
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: ${({custom}) => custom === false ? 'center' : 'flex-start'};
+    justify-content: ${({custom}) => custom === false ? 'center' : 'start'};
 
     @media only screen and (max-width: 900px) {
         width: 100%;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
     }
 `;
 
 export const Image = styled.img`
     position: absolute;
-    min-width: 100%;
+    min-width: ${({custom}) => custom === false ? '100%' : 'auto'};
+    height: ${({custom}) => custom === false ? 'auto' : '120%'};
 
     @media only screen and (max-width: 900px) {
         height: 160%;
-        min-width: initial;
     }
 `;
 
