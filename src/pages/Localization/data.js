@@ -11,7 +11,7 @@ import image9 from '../../assets/icon9.png'
 
 export const headerData = {
     title: 'Localizado no Eixo Platina!',
-    description: 'O Projeto Movi Japi, situado em uma das mais importantes zonas da sua região, Eixo Platina, é um dos novos lançamentos da  Fenix Incorporadora. Localizados na rota que conecta os principais pontos da Zona Leste, encontramos por ali todas as soluções para as demandas da vida urbana.',
+    description: 'O Projeto Movi Sky, situado em uma das mais importantes zonas da sua região, Eixo Platina, é um dos novos lançamentos da  Fenix Incorporadora. Localizados na rota que conecta os principais pontos da Zona Leste, encontramos por ali todas as soluções para as demandas da vida urbana.',
     backgroundText: 'Eixo Platina'
 }
 

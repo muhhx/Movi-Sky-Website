@@ -9,7 +9,7 @@ export const headerData = {
 
 export const structure1 = {
     title: 'Vista e localização diferenciadas',
-    description: 'Situado em uma das principais ruas do Tatuapé, o Movi Japi possui uma visão privilegiada do bairro do Tatuapé. Localizada no eixo platina, o edifício dispõem de uma vista ampla e de tirar o fôlego, do alto vemos toda a região leste de São Paulo.',
+    description: 'Situado em uma das principais ruas do Tatuapé, o Movi Sky possui uma visão privilegiada do bairro do Tatuapé. Localizada no eixo platina, o edifício dispõem de uma vista ampla e de tirar o fôlego, do alto vemos toda a região leste de São Paulo.',
     subtitle: 'Estrutura 1',
     number: '01',
     image: image1,
@@ -41,7 +41,7 @@ export const structure2 = {
 
 export const structure3 = {
     title: 'Academia Equipada e Lavanderia',
-    description: 'No Movi Japi, a academia é equipada com produtos de alta qualidade para você desfrutar de todas as áreas do empreendimento com muito conforto e privacidade e também no edifício possui uma área de lavanderia para a comodidade e praticidade dos condôminos.',
+    description: 'No Movi Sky, a academia é equipada com produtos de alta qualidade para você desfrutar de todas as áreas do empreendimento com muito conforto e privacidade e também no edifício possui uma área de lavanderia para a comodidade e praticidade dos condôminos.',
     subtitle: 'Estrutura 3',
     number: '03',
     image: image3,

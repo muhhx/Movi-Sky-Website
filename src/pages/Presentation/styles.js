@@ -25,7 +25,7 @@ export const WrapperHeader = styled.div`
 export const Title = styled.h1`
     color: white;
     font-size: 46px;
-    max-width: 300px;
+    max-width: 320px;
     width: 100%;
     line-height: 120%;
     font-weight: 400;
