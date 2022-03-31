@@ -24,7 +24,7 @@ export const mapData = {
 export const block1 = {
     image: image1,
     title: 'Hospitais e Farmácias',
-    description: 'Próximo a nossa únidade Japi, temos o Hospital Amil e o Hospital Silvio Romero, ambos localizados à 400 metros da únidade.',
+    description: 'Próximo a nossa únidade Sky, temos o Hospital Amil e o Hospital Silvio Romero, ambos localizados à 400 metros da únidade.',
     alt: 'Icon image',
     displayMobile: true,
     width: '70%'
@@ -51,7 +51,7 @@ export const block3 = {
 export const block4 = {
     image: image4,
     title: 'Educação',
-    description: 'A localização do Movi Japi conta com ótimas escolas ao redor, como o Colégio Agostiniano Mendel (500m), o Senac Tatuape (500m), o Cellep e também a Escola de Aviação Civil.',
+    description: 'A localização do Movi Sky conta com ótimas escolas ao redor, como o Colégio Agostiniano Mendel (500m), o Senac Tatuape (500m), o Cellep e também a Escola de Aviação Civil.',
     alt: 'Icon image',
     displayMobile: true,
     width: '100%'
@@ -60,7 +60,7 @@ export const block4 = {
 export const block5 = {
     image: image5,
     title: 'Cafés e Starbucks',
-    description: 'Além de vários cafés localizados próximos à unidade Japi, uma estrutura do Starbucks está localizado no shopping metrô Tatuapé.',
+    description: 'Além de vários cafés localizados próximos à unidade Sky, uma estrutura do Starbucks está localizado no shopping metrô Tatuapé.',
     alt: 'Icon image',
     displayMobile: false,
     width: '100%'
@@ -69,7 +69,7 @@ export const block5 = {
 export const block6 = {
     image: image6,
     title: 'Mercados',
-    description: 'Além de shoppings, o Mercado Pão de Açucar está localizado a 600 metros da Unidade Japi.',
+    description: 'Além de shoppings, o Mercado Pão de Açucar está localizado a 600 metros da Unidade Sky.',
     alt: 'Icon image',
     displayMobile: true,
     width: '100%'
