@@ -1,9 +1,20 @@
 import styled from "styled-components";
 
+export const Section = styled.section`
+    width: 100%;
+    background-color: ${({ theme }) => theme.colors.darkerBlack};
+    display: flex;
+    justify-content: center;
+
+    @media only screen and (max-width: 450px) {
+        padding-top: 100px;
+    }
+`;
+
 export const Container = styled.div`
     width: 90%;
     max-width: 1000px;
-    height: 500px;
+    min-height: 550px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -21,18 +32,13 @@ export const Container = styled.div`
 `;
 
 export const Description = styled.div`
-    width: 40%;
-    height: 80%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     gap: 15px;
     justify-content: end;
 
     @media only screen and (max-width: 970px) {
-        width: 60%;
-    }
-
-    @media only screen and (max-width: 750px) {
         width: 100%;
     }
 `;
@@ -42,14 +48,14 @@ export const Title = styled.h1`
     font-size: 46px;
     font-weight: 600;
     line-height: 120%;
-    width: 60%;
-    /* overflow-wrap: break-word; */
+    width: 100%;
+    overflow-wrap: break-word;
 `;
 
 export const Division = styled.div`
     width: 150px;
     height: 5px;
-    background-color: ${({ theme }) => theme.colors.orange };
+    background-color: rgb(0, 142, 152);
 `;
 
 export const ParagraphWrapper = styled.div`
@@ -65,12 +71,12 @@ export const Paragraph = styled.p`
 `;
 
 export const ImageWrapper = styled.div`
-    width: 40%;
+    width: 50%;
     height: 100%;
     position: relative;
 
     @media only screen and (max-width: 970px) {
-        width: 100%;
+        display: none;
     }
 `;
 
@@ -82,15 +88,5 @@ export const Image = styled.img`
 
     @media only screen and (max-width: 1100px) {
         transform: translateY(-60px);
-    }
-
-    @media only screen and (max-width: 970px) {
-        width: 40%;
-        transform: translateY(120px);
-    }
-
-    @media only screen and (max-width: 750px) {
-        width: 50%;
-        transform: initial;
     }
 `;

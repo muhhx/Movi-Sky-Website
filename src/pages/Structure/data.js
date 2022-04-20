@@ -8,8 +8,8 @@ export const headerData = {
 }
 
 export const structure1 = {
-    title: 'Vista e localização diferenciadas',
-    description: 'Situado em uma das principais ruas do Tatuapé, o Movi Sky possui uma visão privilegiada do bairro do Tatuapé. Localizada no eixo platina, o edifício dispõem de uma vista ampla e de tirar o fôlego, do alto vemos toda a região leste de São Paulo.',
+    title: 'Vista e Localização privilegiadas',
+    description: 'Situado em uma das principais ruas do Tatuapé, o Movi Sky é privilegiado pela sua localização. Lá de cima, temos um panorama espetacular do bairro. Com sua fachada localizada no Eixo Platina, o edifício dispõe de uma vista de tirar o fôlego, temos uma visão ampla para toda a região Leste de São Paulo.',
     subtitle: 'Estrutura 1',
     number: '01',
     image: image1,
@@ -25,7 +25,7 @@ export const structure1 = {
 
 export const structure2 = {
     title: 'Área de lazer e piscina',
-    description: 'O empreendimento conta com uma ampla área de lazer gourmet, com churrasqueira, e piscina, localizada no rooftop do prédio, para você compartilhar momentos incríveis.',
+    description: 'O empreendimento conta com uma área de lazer completa, toda equipada, pronta para curtir ótimos momentos. No topo do edifício, o morador pode desfrutar de uma tarde na piscina, aproveitar uma reunião com os amigos na Área Gourmet, ou também relaxar no Fire Lounge (lareira ecológica) apreciando o pôr-do-sol.',
     subtitle: 'Estrutura 2',
     number: '02',
     image: image2,
@@ -41,7 +41,7 @@ export const structure2 = {
 
 export const structure3 = {
     title: 'Academia Equipada e Lavanderia',
-    description: 'No Movi Sky, a academia é equipada com produtos de alta qualidade para você desfrutar de todas as áreas do empreendimento com muito conforto e privacidade e também no edifício possui uma área de lavanderia para a comodidade e praticidade dos condôminos.',
+    description: 'Pensando no seu bem-estar, o Movi Sky traz em sua estrutura espaços desenhados para trazer maior comodidade e qualidade de vida aos seus condôminos. Alinhado ao estilo de vida contemporâneo, o Movi Sky possui uma Lavanderia Coletiva, equipada com máquinas de última tecnologia, buscando atender as necessidades básicas do dia a dia de seus moradores. Situada no Rooftop, com vista exclusiva para a cidade, a Academia do Movi é entregue completa, com equipamentos de primeira linha, para que possa se exercitar, sem deixar o aconchego do lar.',
     subtitle: 'Estrutura 3',
     number: '03',
     image: image3,
@@ -57,7 +57,7 @@ export const structure3 = {
 
 export const structure4 = {
     title: 'Espaço Pet e Salão de Festas',
-    description: 'Contamos com ótimo espaço especialmente para o seu pet e um salão de festas amplo e bem equipado para você receber seus convidados.',
+    description: 'No Movi Sky, você terá um salão de festas amplo e bem equipado para você receber seus convidados e  curtir ótimos momentos em família. Para seu pet, criamos um espaço especial. Nessa área separada para eles, poderão relaxar e fazer suas necessidades, sem mesmo sair do condomínio.',
     subtitle: 'Estrutura 4',
     number: '04',
     image: image4,

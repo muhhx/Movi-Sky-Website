@@ -36,6 +36,8 @@ export const Description = styled.p`
 export const Button = styled.button`
     background-color: transparent;
     border: solid 1px ${({theme}) => theme.colors.orange};
+    color: ${({theme}) => theme.colors.orange};
+    font-weight: 500;
     width: 200px;
     height: 50px;
     cursor: pointer;

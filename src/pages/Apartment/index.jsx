@@ -1,12 +1,12 @@
 import Information from './Information'
 import Gallery from './Gallery'
-import { Container } from './styles'
+import Carousel from '../../components/Carousel'
 
 export default function Apartment() {
   return (
-    <Container>
+    <>
       <Information />
-      <Gallery />
-    </Container>
+      <Carousel />
+    </>
   )
 }

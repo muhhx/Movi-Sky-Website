@@ -18,7 +18,7 @@ export const headerData = {
 export const mapData = {
     image: map,
     alt: 'Map image',
-    street: 'Rua Serra de Japi, 130 - Tatuapé - São Paulo - SP'
+    street: 'Rua Serra de Japi, 144 - São Paulo'
 }
 
 export const block1 = {

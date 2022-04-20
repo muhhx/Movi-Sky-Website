@@ -42,12 +42,11 @@ export const Image = styled.img`
 
 export const ContentWrapper = styled.div`
     height: 100%;
-    width: 440px;
+    width: 100%;
     padding: 70px;
     display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: ${({align}) => align.alignItems};
+    align-items: center;
+    justify-content: center;
     position: relative;
 
     @media only screen and (max-width: 900px) {
@@ -65,11 +64,8 @@ export const Title = styled.h1`
     color: ${({theme}) => theme.colors.darkerBlack};
     font-weight: 600;
     line-height: 1.5;
-    text-align: ${({align}) => align.textAlign};
-
-    @media only screen and (max-width: 900px) {
-        text-align: start;
-    }
+    text-align: center;
+    z-index: 1;
 `; 
 
 export const Subtitle = styled.h3`
@@ -77,21 +73,41 @@ export const Subtitle = styled.h3`
     color: ${({theme}) => theme.colors.orange};
     font-weight: 600;
     line-height: 1.5;
-`;
+    z-index: 1;
+    `;
 
 export const Description = styled.p`
     line-height: 1.5;
     font-weight: 300;
     text-align: justify;
+    z-index: 1;
 `;
 
 export const Number = styled.span`
     font-size: 144px;
-    color: ${({theme}) => theme.colors.grey};
+    color: white;
     font-weight: 600;
     line-height: 1;
     position: absolute;
-    z-index: -1;
+    z-index: 0;
     top: 0;
     padding-top: 65px;
+`;
+
+export const Division = styled.div`
+    width: 150px;
+    height: 5px;
+    background-color: rgb(0, 142, 152);
+    z-index: 1;
+`;
+
+export const Wrapper = styled.div`
+    height: 100%;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
 `;

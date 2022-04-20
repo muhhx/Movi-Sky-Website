@@ -59,10 +59,14 @@ export const WrapperInfo = styled.div`
 export const Info = styled.div`
     width: 40%;
     height: 70px;
-    background-color: white;
+    background-color: #E9E9E9;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 14px;
+    text-align: center;
+    padding: 0px 10px;
+    font-weight: 600;
 
     @media only screen and (max-width: 900px) {
         width: 90%;
