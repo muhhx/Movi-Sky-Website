@@ -21,7 +21,7 @@ export const Section = styled.section`
 `;
 
 export const NavigationLink = styled.span`
-    color: #f15924;
+    color: rgb(0, 142, 152);
     font-size: 24px;
     cursor: pointer;
 `;

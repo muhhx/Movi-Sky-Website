@@ -35,8 +35,8 @@ export const Description = styled.p`
 
 export const Button = styled.button`
     background-color: transparent;
-    border: solid 1px ${({theme}) => theme.colors.orange};
-    color: ${({theme}) => theme.colors.orange};
+    border: solid 1px rgb(0, 142, 152);
+    color: rgb(0, 142, 152);
     font-weight: 500;
     width: 200px;
     height: 50px;

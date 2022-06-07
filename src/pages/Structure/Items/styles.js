@@ -21,6 +21,8 @@ export const ImageWrapper = styled.div`
     display: flex;
     align-items: ${({custom}) => custom === false ? 'center' : 'flex-start'};
     justify-content: ${({custom}) => custom === false ? 'center' : 'start'};
+    background-image: url(${props => props.imageUrl});
+    background-size: cover;
 
     @media only screen and (max-width: 900px) {
         width: 100%;

@@ -5,8 +5,8 @@ export default function Items({ item }) {
     <>
       {!item ? '' : 
       <Container flex={item.styling}>
-          <ImageWrapper width={item.styling} custom={item.custom}>
-            <Image src={item.image} alt={item.alt} custom={item.custom}/>
+          <ImageWrapper width={item.styling} custom={item.custom} imageUrl={item.image}>
+            {/* <Image src={item.image} alt={item.alt} custom={item.custom}/> */}
           </ImageWrapper>
           <ContentWrapper align={item.styling}>
             <Wrapper>

@@ -23,7 +23,7 @@ export const RightContainer = styled.div`
 `;
 
 export const Title = styled.h1`
-    color: ${({ theme }) => theme.colors.orange};
+    color: rgb(0, 142, 152) ;
     font-size: 46px;
     font-weight: 600;
     line-height: 120%;
@@ -51,9 +51,9 @@ export const Paragraph = styled.p`
 `;
 
 export const Button = styled.button`
-    border: 1px solid ${({ theme }) => theme.colors.orange};
+    border: 1px solid rgb(0, 142, 152);
     background-color: transparent;
-    color: ${({ theme }) => theme.colors.orange};
+    color: rgb(0, 142, 152);
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     font-weight: 500;

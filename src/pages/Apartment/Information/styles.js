@@ -84,7 +84,7 @@ export const Image = styled.img`
     position: absolute;
     bottom: 0;
     right: 0;
-    max-width: 110%;
+    max-width: 100%;
 
     @media only screen and (max-width: 1100px) {
         transform: translateY(-60px);
