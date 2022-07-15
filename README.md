@@ -1,12 +1,12 @@
 <h1>Movi Sky</h1>
 
 <h4 align="center">
+  <span>Website desktop preview:</span>
   <img alt="Readme" title="Readme" src="./github/PREVIEW_NAVIGATION.gif" />
-<span style="font-size: 12px; font-weight: 300">Website desktop preview</span>
 </h4>
 <h4 align="center">
+  <span>Website responsive mobile preview:</span>
   <img alt="Readme" title="Readme" src="./github/PREVIEW_RESPONSIVE_MOBILE.gif" />
-  <span style="font-size: 12px; font-weight: 300">Website responsive mobile preview</span>
 </h4>
 
 You can check all of the screens and gifs with previews by clicking [here](https://github.com/muhhx/Movi-Sky-Website/tree/master/github)
